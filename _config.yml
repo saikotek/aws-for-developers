@@ -3,3 +3,4 @@ plugins:
 - jekyll-remote-theme # add this line to the plugins list if you already have one
 title: AWS for Developers
 description: AWS services explained in plain English with concepts familiar to developers and compared to Microsoft Azure and Google Cloud Platform.
+markdown: GFM
