@@ -29,16 +29,16 @@ Note: This comparison with Azure/Google Cloud is based on general service capabi
 Service equivalents across platforms may have different feature sets or implementation approaches.
 
 ## Analytics & Big Data
-| AWS Name          | Should be named                 | Type | Azure equivalent        | Google Cloud equivalent | Description                                                                                              |
-| ----------------- | ------------------------------- | ---- | ----------------------- | ----------------------- | -------------------------------------------------------------------------------------------------------- |
-| Amazon Athena     | SQL Query Service               | SaaS | Synapse Analytics       | BigQuery                | Query data in S3 using SQL without a server                                                              |
-| Amazon EMR        | Hadoop/Spark                    | PaaS | HDInsight               | Dataproc                | Managed big data platform for processing large datasets                                                  |
-| Amazon Kinesis    | Real-time Stream Processing     | PaaS | Azure Stream Analytics  | Cloud Dataflow          | Process and analyze real-time streaming data like logs, video, audio, or IoT telemetry                   |
-| Amazon QuickSight | Business Intelligence Dashboard | SaaS | Power BI                | Looker                  | Create and share interactive dashboards and business intelligence reports                                |
-| Amazon Redshift   | Data Warehouse                  | PaaS | Azure Synapse Analytics | BigQuery                | Managed petabyte-scale data warehouse for running SQL queries on large datasets                          |
-| AWS Clean Rooms   | Secure Data Collaboration       | SaaS | Azure Purview           | Dataplex                | Securely analyze and collaborate on datasets with partners without sharing raw data                      |
-| AWS Data Pipeline | Data Movement                   | PaaS | Azure Data Factory      | Cloud Composer          | Automate movement and transformation of data between different AWS services and on-premises data sources |
-| AWS Glue          | ETL Service                     | PaaS | Azure Data Factory      | Cloud Dataflow          | Extract, transform, and load data from various sources into data lakes and data warehouses               |
+| AWS Name | Should be named | Type | Azure equivalent | Google Cloud equivalent | Description |
+|----------|----------------|------|------------------|------------------------|-------------|
+| Amazon Athena | SQL Query Service | SaaS | Synapse Analytics | BigQuery | Query data in S3 using SQL without a server |
+| Amazon EMR | Hadoop/Spark | PaaS | HDInsight | Dataproc | Managed big data platform for processing large datasets |
+| Amazon Kinesis | Real-time Stream Processing | PaaS | Azure Stream Analytics | Cloud Dataflow | Process and analyze real-time streaming data like logs, video, audio, or IoT telemetry |
+| Amazon QuickSight | Business Intelligence Dashboard | SaaS | Power BI | Looker | Create and share interactive dashboards and business intelligence reports |
+| Amazon Redshift | Data Warehouse | PaaS | Azure Synapse Analytics | BigQuery | Managed petabyte-scale data warehouse for running SQL queries on large datasets |
+| AWS Clean Rooms | Secure Data Collaboration | SaaS | Azure Purview | Dataplex | Securely analyze and collaborate on datasets with partners without sharing raw data |
+| AWS Data Pipeline | Data Movement | PaaS | Azure Data Factory | Cloud Composer | Automate movement and transformation of data between different AWS services and on-premises data sources |
+| AWS Glue | ETL Service | PaaS | Azure Data Factory | Cloud Dataflow | Extract, transform, and load data from various sources into data lakes and data warehouses |
 
 ## Application Integration
 | AWS Name           | Should be named           | Type | Azure equivalent  | Google Cloud equivalent | Description                                                               |
