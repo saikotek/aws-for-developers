@@ -51,12 +51,12 @@ Service equivalents across platforms may have different feature sets or implemen
 | Amazon SQS         | Message Queue             | PaaS | Service Bus       | Cloud Tasks             | Managed message queuing service for decoupling and scaling microservices  |
 
 ## Business Applications
-| AWS Name        | Should be named             | Service Type | Azure equivalent              | Google Cloud equivalent    | Description                                                                             |
-| --------------- | --------------------------- | ------------ | ----------------------------- | -------------------------- | --------------------------------------------------------------------------------------- |
-| AWS AppFabric   | SaaS Management Platform    | SaaS         | Microsoft Entra               | BeyondCorp Enterprise      | Centralize SaaS application security, user activity monitoring, and access controls     |
-| Amazon Chime    | Video Conferencing          | SaaS         | Teams                         | Google Meet                | Enterprise communication service for video calls, voice calls, chat, and screen sharing |
-| Amazon Connect  | Cloud Contact Center        | SaaS         | Dynamics 365 Customer Service | Contact Center AI Platform | Cloud-based contact center service with voice and chat capabilities                     |
-| Amazon Pinpoint | Customer Engagement Service | SaaS         | Azure Communication Services  | Firebase Cloud Messaging   | Targeted messaging and analytics service for customer engagement                        |
+| AWS Name        | Should be named             | Type | Azure equivalent              | Google Cloud equivalent    | Description                                                                             |
+| --------------- | --------------------------- | ---- | ----------------------------- | -------------------------- | --------------------------------------------------------------------------------------- |
+| AWS AppFabric   | SaaS Management Platform    | SaaS | Microsoft Entra               | BeyondCorp Enterprise      | Centralize SaaS application security, user activity monitoring, and access controls     |
+| Amazon Chime    | Video Conferencing          | SaaS | Teams                         | Google Meet                | Enterprise communication service for video calls, voice calls, chat, and screen sharing |
+| Amazon Connect  | Cloud Contact Center        | SaaS | Dynamics 365 Customer Service | Contact Center AI Platform | Cloud-based contact center service with voice and chat capabilities                     |
+| Amazon Pinpoint | Customer Engagement Service | SaaS | Azure Communication Services  | Firebase Cloud Messaging   | Targeted messaging and analytics service for customer engagement                        |
 
 ## Cloud Financial Management
 | AWS Name                  | Should be named | Type | Azure equivalent | Google Cloud equivalent | Description                                                                                     |
@@ -114,11 +114,11 @@ Service equivalents across platforms may have different feature sets or implemen
 | AWS X-Ray                     | Distributed Tracing     | SaaS | Application Insights    | Cloud Trace               | Application trace analysis and debugging service                                      |
 
 ## Frontend Web and Mobile
-| AWS Name        | Should be named        | Type | Azure equivalent | Google Cloud equivalent | Description                                                                     |     |
-| --------------- | ---------------------- | ---- | ---------------- | ----------------------- | ------------------------------------------------------------------------------- | --- |
-| AWS Amplify     | Full-Stack Framework   | PaaS | Static Web Apps  | Firebase                | Complete solution for building full-stack web and mobile apps                   |     |
-| AWS AppSync     | Serverless API         | PaaS | API Management   | -                       | Service for creating serverless GraphQL API with real-time data synchronization |     |
-| AWS Device Farm | Mobile Testing Service | SaaS | App Center Test  | Firebase Test Lab       | Testing service for mobile and web applications on real devices                 |     |
+| AWS Name        | Should be named        | Type | Azure equivalent | Google Cloud equivalent | Description                                                                     |
+| --------------- | ---------------------- | ---- | ---------------- | ----------------------- | ------------------------------------------------------------------------------- |
+| AWS Amplify     | Full-Stack Framework   | PaaS | Static Web Apps  | Firebase                | Complete solution for building full-stack web and mobile apps                   |
+| AWS AppSync     | Serverless API         | PaaS | API Management   | -                       | Service for creating serverless GraphQL API with real-time data synchronization |
+| AWS Device Farm | Mobile Testing Service | SaaS | App Center Test  | Firebase Test Lab       | Testing service for mobile and web applications on real devices                 |
 
 ## Machine Learning
 | AWS Name           | Should be named         | Type | Azure equivalent | Google Cloud equivalent | Description                                                                 |
