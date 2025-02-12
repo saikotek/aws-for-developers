@@ -31,7 +31,6 @@ Service equivalents across platforms may have different feature sets or implemen
 ## Analytics & Big Data
 | AWS Name          | Should be named                 | Type | Azure equivalent        | Google Cloud equivalent | Description                                                                                              |
 | ----------------- | ------------------------------- | ---- | ----------------------- | ----------------------- | -------------------------------------------------------------------------------------------------------- |
-
 | Amazon Athena     | SQL Query Service               | SaaS | Synapse Analytics       | BigQuery                | Query data in S3 using SQL without a server                                                              |
 | Amazon EMR        | Hadoop/Spark                    | PaaS | HDInsight               | Dataproc                | Managed big data platform for processing large datasets                                                  |
 | Amazon Kinesis    | Real-time Stream Processing     | PaaS | Azure Stream Analytics  | Cloud Dataflow          | Process and analyze real-time streaming data like logs, video, audio, or IoT telemetry                   |
@@ -43,7 +42,6 @@ Service equivalents across platforms may have different feature sets or implemen
 
 ## Application Integration
 | AWS Name           | Should be named           | Type | Azure equivalent  | Google Cloud equivalent | Description                                                               |
-
 | ------------------ | ------------------------- | ---- | ----------------- | ----------------------- | ------------------------------------------------------------------------- |
 | AWS Step Functions | Visual Workflow Builder   | PaaS | Logic Apps        | Workflows               | Build visual workflows and easily run them                                |
 | Amazon AppFlow     | 3rd Party Integrator      | SaaS | Logic Apps        | Application Integration | No-code integration service for third-party apps like Salesforce, Zendesk |
