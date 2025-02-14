@@ -1,0 +1,1103 @@
+{
+  "categories": [
+    {
+      "name": "Analytics & Big Data",
+      "services": [
+        {
+          "AWS Name": "Amazon Athena",
+          "Better Name": "SQL Query Service",
+          "Type": "SaaS",
+          "Azure equivalent": "Synapse Analytics",
+          "Google Cloud equivalent": "BigQuery",
+          "Description": "Query data in S3 using SQL without a server"
+        },
+        {
+          "AWS Name": "Amazon EMR",
+          "Better Name": "Big Data Platform",
+          "Type": "PaaS",
+          "Azure equivalent": "HDInsight",
+          "Google Cloud equivalent": "Dataproc",
+          "Description": "Managed big data platform for processing large datasets. Supports Hadoop, Spark."
+        },
+        {
+          "AWS Name": "Amazon Kinesis",
+          "Better Name": "Real-time Stream Processing",
+          "Type": "PaaS",
+          "Azure equivalent": "Azure Stream Analytics",
+          "Google Cloud equivalent": "Cloud Dataflow",
+          "Description": "Process and analyze real-time streaming data like logs, video, etc. Think Kafka."
+        },
+        {
+          "AWS Name": "Amazon QuickSight",
+          "Better Name": "BI Dashboard",
+          "Type": "SaaS",
+          "Azure equivalent": "Power BI",
+          "Google Cloud equivalent": "Looker",
+          "Description": "Create and share interactive dashboards and business intelligence reports. Think Tableau."
+        },
+        {
+          "AWS Name": "Amazon Redshift",
+          "Better Name": "Data Warehouse",
+          "Type": "PaaS",
+          "Azure equivalent": "Azure Synapse Analytics",
+          "Google Cloud equivalent": "BigQuery",
+          "Description": "Managed petabyte-scale data warehouse for running SQL queries on large datasets. Think Snowflake."
+        },
+        {
+          "AWS Name": "AWS Clean Rooms",
+          "Better Name": "Data Collaboration",
+          "Type": "SaaS",
+          "Azure equivalent": "Azure Purview",
+          "Google Cloud equivalent": "Dataplex",
+          "Description": "Securely analyze and collaborate on datasets with partners without sharing raw data"
+        },
+        {
+          "AWS Name": "AWS Data Pipeline",
+          "Better Name": "Data Pipeline",
+          "Type": "PaaS",
+          "Azure equivalent": "Azure Data Factory",
+          "Google Cloud equivalent": "Cloud Composer",
+          "Description": "Automate transfer of data between AWS services and on-premises data sources"
+        },
+        {
+          "AWS Name": "AWS Glue",
+          "Better Name": "Data ETL",
+          "Type": "PaaS",
+          "Azure equivalent": "Azure Data Factory",
+          "Google Cloud equivalent": "Cloud Dataflow",
+          "Description": "Extract, transform, and load data from various sources into data lakes/warehouses"
+        }
+      ]
+    },
+    {
+      "name": "Application Integration",
+      "services": [
+        {
+          "AWS Name": "AWS Step Functions",
+          "Better Name": "Visual Workflow Builder",
+          "Type": "PaaS",
+          "Azure equivalent": "Logic Apps",
+          "Google Cloud equivalent": "Workflows",
+          "Description": "Build visual workflows and easily run them"
+        },
+        {
+          "AWS Name": "Amazon AppFlow",
+          "Better Name": "3rd Party Integrator",
+          "Type": "SaaS",
+          "Azure equivalent": "Logic Apps",
+          "Google Cloud equivalent": "Application Integration",
+          "Description": "No-code integration service for 3rd party apps like Salesforce, Zendesk"
+        },
+        {
+          "AWS Name": "Amazon EventBridge",
+          "Better Name": "Event Bus",
+          "Type": "PaaS",
+          "Azure equivalent": "Event Grid",
+          "Google Cloud equivalent": "Eventarc",
+          "Description": "Native solution for routing events between apps and AWS services"
+        },
+        {
+          "AWS Name": "Amazon MQ",
+          "Better Name": "Managed Message Broker",
+          "Type": "PaaS",
+          "Azure equivalent": "Service Bus",
+          "Google Cloud equivalent": "?",
+          "Description": "Managed protocol-compliant message broker. Supports Apache ActiveMQ and RabbitMQ"
+        },
+        {
+          "AWS Name": "Amazon SNS",
+          "Better Name": "Pub/Sub Service",
+          "Type": "PaaS",
+          "Azure equivalent": "Notification Hubs",
+          "Google Cloud equivalent": "Pub/Sub",
+          "Description": "Managed pub/sub messaging for microservices and serverless apps. One-to-many communication"
+        },
+        {
+          "AWS Name": "Amazon SQS",
+          "Better Name": "Message Queue",
+          "Type": "PaaS",
+          "Azure equivalent": "Service Bus",
+          "Google Cloud equivalent": "Cloud Tasks",
+          "Description": "Managed message queuing service for decoupling microservices. One-to-one communication"
+        }
+      ]
+    },
+    {
+      "name": "Business Applications",
+      "services": [
+        {
+          "AWS Name": "AWS AppFabric",
+          "Better Name": "SaaS Management Platform",
+          "Type": "SaaS",
+          "Azure equivalent": "Microsoft Entra",
+          "Google Cloud equivalent": "BeyondCorp Enterprise",
+          "Description": "Centralize SaaS application security, user activity monitoring, and access controls"
+        },
+        {
+          "AWS Name": "Amazon Chime",
+          "Better Name": "Video Conferencing",
+          "Type": "SaaS",
+          "Azure equivalent": "Teams",
+          "Google Cloud equivalent": "Google Meet",
+          "Description": "Enterprise communication service for video/voice calls, chat, and screen sharing. Think Zoom."
+        },
+        {
+          "AWS Name": "Amazon Connect",
+          "Better Name": "Cloud Contact Center",
+          "Type": "SaaS",
+          "Azure equivalent": "Dynamics 365 Customer Service",
+          "Google Cloud equivalent": "Contact Center AI Platform",
+          "Description": "Cloud-based contact center service with voice and chat capabilities"
+        },
+        {
+          "AWS Name": "Amazon Pinpoint",
+          "Better Name": "Customer Engagement Service",
+          "Type": "SaaS",
+          "Azure equivalent": "Azure Communication Services",
+          "Google Cloud equivalent": "Firebase Cloud Messaging",
+          "Description": "Targeted messaging and analytics service for customer engagement"
+        }
+      ]
+    },
+    {
+      "name": "Cloud Financial Management",
+      "services": [
+        {
+          "AWS Name": "AWS Cost Explorer",
+          "Better Name": "Cost Analysis",
+          "Type": "SaaS",
+          "Azure equivalent": "Cost Management",
+          "Google Cloud equivalent": "Cloud Billing",
+          "Description": "Analyze and visualize AWS costs and usage data to identify trends and cost-saving opportunities"
+        },
+        {
+          "AWS Name": "AWS Budgets",
+          "Better Name": "Cost Monitoring",
+          "Type": "SaaS",
+          "Azure equivalent": "Azure Budgets",
+          "Google Cloud equivalent": "Cloud Billing",
+          "Description": "Set custom budgets and receive alerts when costs or usage exceed thresholds"
+        },
+        {
+          "AWS Name": "AWS Cost and Usage Report",
+          "Better Name": "Cost Reporting",
+          "Type": "SaaS",
+          "Azure equivalent": "Cost Management",
+          "Google Cloud equivalent": "Cloud Billing",
+          "Description": "Generate detailed reports on AWS costs and usage data for custom analysis and forecasting"
+        }
+      ]
+    },
+    {
+      "name": "Compute",
+      "services": [
+        {
+          "AWS Name": "Amazon EC2",
+          "Type": "IaaS",
+          "Better Name": "Virtual Machine",
+          "Azure equivalent": "Virtual Machines",
+          "Google Cloud equivalent": "Compute Engine",
+          "Description": "Virtual machines you can SSH into and do anything"
+        },
+        {
+          "AWS Name": "Amazon EC2 Image Builder",
+          "Type": "PaaS",
+          "Better Name": "VM Image Builder",
+          "Azure equivalent": "VM Image Builder",
+          "Google Cloud equivalent": "Image Builder",
+          "Description": "Automatically create, test and maintain VM images"
+        },
+        {
+          "AWS Name": "Amazon Lightsail",
+          "Type": "IaaS",
+          "Better Name": "Simple VPS",
+          "Azure equivalent": "-",
+          "Google Cloud equivalent": "-",
+          "Description": "Easy-to-use VPS with simplified management"
+        },
+        {
+          "AWS Name": "AWS Batch",
+          "Type": "PaaS",
+          "Better Name": "Batch Processing",
+          "Azure equivalent": "Batch Service",
+          "Google Cloud equivalent": "Cloud Batch",
+          "Description": "Schedule and run thousands of batch computing jobs on Amazon ECS, Fargate, etc."
+        },
+        {
+          "AWS Name": "AWS Elastic Beanstalk",
+          "Type": "PaaS",
+          "Better Name": "App Platform",
+          "Azure equivalent": "App Service",
+          "Google Cloud equivalent": "App Engine",
+          "Description": "Platform as a Service - deploy your web apps without any infrastructure management"
+        },
+        {
+          "AWS Name": "AWS Lambda",
+          "Type": "FaaS",
+          "Better Name": "Serverless Functions",
+          "Azure equivalent": "Functions",
+          "Google Cloud equivalent": "Cloud Functions",
+          "Description": "Functions that run your code without managing servers. Supports multiple languages"
+        },
+        {
+          "AWS Name": "AWS Outposts",
+          "Type": "IaaS",
+          "Better Name": "On-Premises Cloud",
+          "Azure equivalent": "Azure Stack",
+          "Google Cloud equivalent": "Anthos",
+          "Description": "Run AWS services on on-premises servers"
+        },
+        {
+          "AWS Name": "AWS Wavelength",
+          "Type": "IaaS",
+          "Better Name": "5G Edge Computing",
+          "Azure equivalent": "Edge Zones",
+          "Google Cloud equivalent": "Mobile Edge Cloud",
+          "Description": "Run applications at 5G network edge for ultra-low latency"
+        }
+      ]
+    },
+    {
+      "name": "Containers & Orchestration",
+      "services": [
+        {
+          "AWS Name": "Amazon ECR (Elastic Container Registry)",
+          "Type": "PaaS",
+          "Better Name": "Container Registry",
+          "Azure equivalent": "Azure Container Registry (ACR)",
+          "Google Cloud equivalent": "Container Registry",
+          "Description": "Docker image storage. Think Docker Hub but private"
+        },
+        {
+          "AWS Name": "Amazon ECS (Elastic Container Service)",
+          "Type": "PaaS",
+          "Better Name": "Container Orchestration (Native)",
+          "Azure equivalent": "Azure Container Apps (ACA)",
+          "Google Cloud equivalent": "Cloud Run",
+          "Description": "Native container orchestration service. Works with EC2 or Fargate for serverless containers"
+        },
+        {
+          "AWS Name": "Amazon EKS (Elastic Kubernetes Service)",
+          "Type": "PaaS",
+          "Better Name": "Container Orchestration (Kubernetes)",
+          "Azure equivalent": "Azure Kubernetes Service (AKS)",
+          "Google Cloud equivalent": "Kubernetes Engine (GKE)",
+          "Description": "Managed Kubernetes service"
+        },
+        {
+          "AWS Name": "AWS App Runner",
+          "Type": "PaaS",
+          "Better Name": "Simple Container Apps",
+          "Azure equivalent": "Azure Container Apps (ACA)",
+          "Google Cloud equivalent": "Cloud Run",
+          "Description": "Managed container platform for web apps. Deploy code and enjoy load balancing, auto-scaling etc."
+        },
+        {
+          "AWS Name": "AWS Fargate",
+          "Type": "PaaS",
+          "Better Name": "Serverless Containers",
+          "Azure equivalent": "Azure Container Instances (ACI)",
+          "Google Cloud equivalent": "Cloud Run Jobs",
+          "Description": "Compute engine (not a standalone service) for running containers in serverless environment"
+        }
+      ]
+    },
+    {
+      "name": "Databases",
+      "services": [
+        {
+          "AWS Name": "Amazon Aurora",
+          "Better Name": "Optimized SQL Database",
+          "Type": "PaaS",
+          "Azure equivalent": "Azure Database for MySQL/PostgreSQL",
+          "Google Cloud equivalent": "Cloud SQL",
+          "Description": "High-performance managed MySQL/PostgreSQL compatible database"
+        },
+        {
+          "AWS Name": "Amazon DynamoDB",
+          "Better Name": "NoSQL Database (Native)",
+          "Type": "PaaS",
+          "Azure equivalent": "Cosmos DB",
+          "Google Cloud equivalent": "Cloud Firestore/Datastore",
+          "Description": "Managed NoSQL database optimized for performance, scalability, and low latency"
+        },
+        {
+          "AWS Name": "Amazon DocumentDB",
+          "Better Name": "NoSQL Database (MongoDB)",
+          "Type": "PaaS",
+          "Azure equivalent": "Cosmos DB (MongoDB API)",
+          "Google Cloud equivalent": "MongoDB Atlas on GCP",
+          "Description": "Document database with MongoDB compatibility"
+        },
+        {
+          "AWS Name": "Amazon ElastiCache",
+          "Better Name": "In-memory Cache",
+          "Type": "PaaS",
+          "Azure equivalent": "Azure Cache for Redis",
+          "Google Cloud equivalent": "Memorystore",
+          "Description": "In-memory caching service supporting Redis or Memcached"
+        },
+        {
+          "AWS Name": "Amazon Neptune",
+          "Better Name": "Graph Database",
+          "Type": "PaaS",
+          "Azure equivalent": "Cosmos DB (Gremlin API)",
+          "Google Cloud equivalent": "-",
+          "Description": "Managed graph database service"
+        },
+        {
+          "AWS Name": "Amazon QLDB",
+          "Better Name": "Ledger Database",
+          "Type": "PaaS",
+          "Azure equivalent": "-",
+          "Google Cloud equivalent": "-",
+          "Description": "Managed ledger database for verifiable history of changes. Think blockchain."
+        },
+        {
+          "AWS Name": "Amazon RDS",
+          "Better Name": "SQL Database",
+          "Type": "PaaS",
+          "Azure equivalent": "Azure SQL Database",
+          "Google Cloud equivalent": "Cloud SQL",
+          "Description": "Managed relational databases for multiple engines (MySQL, PostgreSQL, Oracle, SQL Server)"
+        },
+        {
+          "AWS Name": "Amazon Timestream",
+          "Better Name": "Time Series Database",
+          "Type": "PaaS",
+          "Azure equivalent": "Azure Time Series Insights",
+          "Google Cloud equivalent": "-",
+          "Description": "Managed time series database for time series data"
+        }
+      ]
+    },
+    {
+      "name": "Developer Tools",
+      "services": [
+        {
+          "AWS Name": "AWS Cloud9",
+          "Better Name": "Cloud IDE",
+          "Type": "SaaS",
+          "Azure equivalent": "Azure DevOps Codespaces",
+          "Google Cloud equivalent": "Cloud Shell Editor",
+          "Description": "Browser-based IDE with collaborative coding features"
+        },
+        {
+          "AWS Name": "AWS CloudShell",
+          "Better Name": "Cloud Terminal",
+          "Type": "SaaS",
+          "Azure equivalent": "Azure Cloud Shell",
+          "Google Cloud equivalent": "Cloud Shell",
+          "Description": "Browser-based shell environment with AWS tools pre-installed"
+        },
+        {
+          "AWS Name": "AWS CodeArtifact",
+          "Better Name": "Artifact Repository",
+          "Type": "SaaS",
+          "Azure equivalent": "Azure Artifacts",
+          "Google Cloud equivalent": "Artifact Registry",
+          "Description": "Managed artifact repository for software packages"
+        },
+        {
+          "AWS Name": "AWS CodeBuild",
+          "Better Name": "Code Build",
+          "Type": "PaaS",
+          "Azure equivalent": "Azure Pipelines",
+          "Google Cloud equivalent": "Cloud Build",
+          "Description": "Fully managed build service that compiles code and runs tests"
+        },
+        {
+          "AWS Name": "AWS CodeCommit (discontinued)",
+          "Better Name": "Git Repository",
+          "Type": "SaaS",
+          "Azure equivalent": "Azure Repos",
+          "Google Cloud equivalent": "Cloud Source Repositories",
+          "Description": "Fully managed source control service using Git"
+        },
+        {
+          "AWS Name": "AWS CodeDeploy",
+          "Better Name": "Code Deploy",
+          "Type": "PaaS",
+          "Azure equivalent": "Azure DevOps",
+          "Google Cloud equivalent": "Cloud Deploy",
+          "Description": "Automated deployment service to various compute services"
+        },
+        {
+          "AWS Name": "AWS CodePipeline",
+          "Better Name": "CI/CD Pipeline",
+          "Type": "PaaS",
+          "Azure equivalent": "Azure Pipelines",
+          "Google Cloud equivalent": "Cloud Build",
+          "Description": "Continuous delivery service for fast and reliable updates"
+        },
+        {
+          "AWS Name": "AWS Fault Injection Service",
+          "Better Name": "Chaos Engineering",
+          "Type": "SaaS",
+          "Azure equivalent": "Azure Chaos Studio",
+          "Google Cloud equivalent": "-",
+          "Description": "Controlled experiment service for testing application resilience"
+        },
+        {
+          "AWS Name": "AWS Infrastructure Composer",
+          "Better Name": "Infrastructure Designer",
+          "Type": "SaaS",
+          "Azure equivalent": "-",
+          "Google Cloud equivalent": "-",
+          "Description": "Visual designer for AWS infrastructure. Generates IaaC templates (AWS CloudFormation)"
+        },
+        {
+          "AWS Name": "Amazon Q Developer",
+          "Better Name": "AI Copilot",
+          "Type": "SaaS",
+          "Azure equivalent": "GitHub Copilot",
+          "Google Cloud equivalent": "Duet AI",
+          "Description": "AI-powered coding assistant and documentation helper"
+        },
+        {
+          "AWS Name": "AWS X-Ray",
+          "Better Name": "Distributed Tracing",
+          "Type": "SaaS",
+          "Azure equivalent": "Application Insights",
+          "Google Cloud equivalent": "Cloud Trace",
+          "Description": "Application trace analysis and debugging service. Useful for microservices"
+        }
+      ]
+    },
+    {
+      "name": "Frontend Web & Mobile",
+      "services": [
+        {
+          "AWS Name": "AWS Amplify",
+          "Better Name": "Full-Stack Framework",
+          "Type": "PaaS",
+          "Azure equivalent": "Static Web Apps",
+          "Google Cloud equivalent": "Firebase",
+          "Description": "Complete solution for building full-stack web & mobile apps"
+        },
+        {
+          "AWS Name": "AWS AppSync",
+          "Better Name": "Serverless API",
+          "Type": "PaaS",
+          "Azure equivalent": "API Management",
+          "Google Cloud equivalent": "-",
+          "Description": "Service for creating serverless GraphQL API with real-time data synchronization"
+        },
+        {
+          "AWS Name": "AWS Device Farm",
+          "Better Name": "Mobile Testing Service",
+          "Type": "SaaS",
+          "Azure equivalent": "App Center Test",
+          "Google Cloud equivalent": "Firebase Test Lab",
+          "Description": "Testing service for mobile and web applications on real devices"
+        }
+      ]
+    },
+    {
+      "name": "Machine Learning",
+      "services": [
+        {
+          "AWS Name": "Amazon Bedrock",
+          "Better Name": "LLMs API",
+          "Type": "SaaS",
+          "Azure equivalent": "Azure OpenAI",
+          "Google Cloud equivalent": "Vertex AI",
+          "Description": "Fully managed service for accessing foundation LLMs (Claude, Llama, etc.)"
+        },
+        {
+          "AWS Name": "Amazon CodeGuru",
+          "Better Name": "Code Review AI",
+          "Type": "SaaS",
+          "Azure equivalent": "DevOps AI",
+          "Google Cloud equivalent": "-",
+          "Description": "AI-powered code reviews and application performance recommendations"
+        },
+        {
+          "AWS Name": "Amazon Comprehend",
+          "Better Name": "Text Analytics",
+          "Type": "SaaS",
+          "Azure equivalent": "Text Analytics",
+          "Google Cloud equivalent": "Natural Language AI",
+          "Description": "Natural language processing service for text analysis"
+        },
+        {
+          "AWS Name": "Amazon Forecast",
+          "Better Name": "AI Forecasting",
+          "Type": "SaaS",
+          "Azure equivalent": "Forecasting",
+          "Google Cloud equivalent": "Vertex AI Forecasting",
+          "Description": "Time series forecasting using machine learning"
+        },
+        {
+          "AWS Name": "Amazon Kendra",
+          "Better Name": "Enterprise Search",
+          "Type": "SaaS",
+          "Azure equivalent": "Cognitive Search",
+          "Google Cloud equivalent": "Enterprise Search",
+          "Description": "ML-powered intelligent search service for enterprise data. Think Elasticsearch."
+        },
+        {
+          "AWS Name": "Amazon Lex",
+          "Better Name": "Chatbot Builder",
+          "Type": "SaaS",
+          "Azure equivalent": "Bot Service",
+          "Google Cloud equivalent": "Dialogflow",
+          "Description": "Build conversational interfaces using voice and text. Think Alexa."
+        },
+        {
+          "AWS Name": "Amazon Personalize",
+          "Better Name": "Recommendation Engine",
+          "Type": "SaaS",
+          "Azure equivalent": "Personalizer",
+          "Google Cloud equivalent": "Recommendations AI",
+          "Description": "Real-time personalized recommendations"
+        },
+        {
+          "AWS Name": "Amazon Polly",
+          "Better Name": "Text-to-Speech",
+          "Type": "SaaS",
+          "Azure equivalent": "Text to Speech",
+          "Google Cloud equivalent": "Text-to-Speech",
+          "Description": "Convert text into lifelike speech"
+        },
+        {
+          "AWS Name": "Amazon Q",
+          "Better Name": "AI Assistant",
+          "Type": "SaaS",
+          "Azure equivalent": "Copilot",
+          "Google Cloud equivalent": "Duet AI",
+          "Description": "AI-powered assistant for business use cases"
+        },
+        {
+          "AWS Name": "Amazon Rekognition",
+          "Better Name": "Computer Vision AI",
+          "Type": "SaaS",
+          "Azure equivalent": "Computer Vision",
+          "Google Cloud equivalent": "Vision AI",
+          "Description": "Image and video analysis service"
+        },
+        {
+          "AWS Name": "Amazon SageMaker",
+          "Better Name": "ML Platform",
+          "Type": "PaaS",
+          "Azure equivalent": "Azure ML",
+          "Google Cloud equivalent": "Vertex AI",
+          "Description": "Complete platform for building, training, and deploying ML models"
+        },
+        {
+          "AWS Name": "Amazon Textract",
+          "Better Name": "Document Analysis",
+          "Type": "SaaS",
+          "Azure equivalent": "Form Recognizer",
+          "Google Cloud equivalent": "Document AI",
+          "Description": "Extract text and data from documents"
+        },
+        {
+          "AWS Name": "Amazon Transcribe",
+          "Better Name": "Speech-to-Text",
+          "Type": "SaaS",
+          "Azure equivalent": "Speech to Text",
+          "Google Cloud equivalent": "Speech-to-Text",
+          "Description": "Convert speech to text"
+        },
+        {
+          "AWS Name": "Amazon Translate",
+          "Better Name": "Translator",
+          "Type": "SaaS",
+          "Azure equivalent": "Translator",
+          "Google Cloud equivalent": "Translation AI",
+          "Description": "Neural machine translation service"
+        }
+      ]
+    },
+    {
+      "name": "Management & Monitoring",
+      "services": [
+        {
+          "AWS Name": "AWS Auto Scaling",
+          "Better Name": "Resource Scaler",
+          "Type": "PaaS",
+          "Azure equivalent": "Autoscale",
+          "Google Cloud equivalent": "Autoscaling",
+          "Description": "Automatically adjust resources across multiple services"
+        },
+        {
+          "AWS Name": "AWS CloudFormation",
+          "Better Name": "Infrastructure as Code",
+          "Type": "PaaS",
+          "Azure equivalent": "ARM Templates",
+          "Google Cloud equivalent": "Cloud Deployment Manager",
+          "Description": "Define and provision infrastructure using code. Think Terraform."
+        },
+        {
+          "AWS Name": "AWS CloudTrail",
+          "Better Name": "Activity Logging",
+          "Type": "SaaS",
+          "Azure equivalent": "Activity Log",
+          "Google Cloud equivalent": "Cloud Audit Logs",
+          "Description": "Track user activity and API usage"
+        },
+        {
+          "AWS Name": "Amazon CloudWatch",
+          "Better Name": "Monitoring & Logs",
+          "Type": "SaaS",
+          "Azure equivalent": "Monitor",
+          "Google Cloud equivalent": "Cloud Monitoring",
+          "Description": "Infrastructure and application monitoring service"
+        },
+        {
+          "AWS Name": "AWS Compute Optimizer",
+          "Better Name": "Resource Optimization",
+          "Type": "SaaS",
+          "Azure equivalent": "Advisor",
+          "Google Cloud equivalent": "Recommender",
+          "Description": "Analyze and optimize compute resource usage"
+        },
+        {
+          "AWS Name": "AWS Control Tower",
+          "Better Name": "Multi-Account Manager",
+          "Type": "SaaS",
+          "Azure equivalent": "Landing Zones",
+          "Google Cloud equivalent": "Cloud Asset Inventory",
+          "Description": "Set up and govern multi-account AWS environment"
+        },
+        {
+          "AWS Name": "AWS Config",
+          "Better Name": "Resource Config Manager",
+          "Type": "SaaS",
+          "Azure equivalent": "Policy",
+          "Google Cloud equivalent": "Asset Inventory",
+          "Description": "Track and audit configuration of your resources"
+        },
+        {
+          "AWS Name": "AWS Health Dashboard",
+          "Better Name": "Service Status",
+          "Type": "SaaS",
+          "Azure equivalent": "Service Health",
+          "Google Cloud equivalent": "Cloud Status",
+          "Description": "View status and health of all AWS services"
+        },
+        {
+          "AWS Name": "AWS Organizations",
+          "Better Name": "Organizations Manager",
+          "Type": "SaaS",
+          "Azure equivalent": "Management Groups",
+          "Google Cloud equivalent": "Cloud Resource Manager",
+          "Description": "Centrally manage multiple AWS accounts as a single organization"
+        },
+        {
+          "AWS Name": "AWS OpsWorks",
+          "Better Name": "Server Config Manager",
+          "Type": "PaaS",
+          "Azure equivalent": "Automation",
+          "Google Cloud equivalent": "Config Management",
+          "Description": "Servers (EC2 or on-premises) configuration automation using Chef and Puppet"
+        },
+        {
+          "AWS Name": "AWS Systems Manager",
+          "Better Name": "Operations Hub",
+          "Type": "PaaS",
+          "Azure equivalent": "Automation",
+          "Google Cloud equivalent": "Cloud Operations",
+          "Description": "Infrastructure operations management"
+        },
+        {
+          "AWS Name": "AWS Trusted Advisor",
+          "Better Name": "Advisor",
+          "Type": "SaaS",
+          "Azure equivalent": "Advisor",
+          "Google Cloud equivalent": "Recommender",
+          "Description": "Analyze environment against best practices"
+        },
+        {
+          "AWS Name": "AWS Well-Architected Tool",
+          "Better Name": "Architecture Reviewer",
+          "Type": "SaaS",
+          "Azure equivalent": "Well-Architected Review",
+          "Google Cloud equivalent": "Cloud Architecture Center",
+          "Description": "Review and improve your architectures"
+        }
+      ]
+    },
+    {
+      "name": "Migration & Transfer",
+      "services": [
+        {
+          "AWS Name": "AWS Application Discovery Service",
+          "Better Name": "Server Discovery Scanner",
+          "Type": "SaaS",
+          "Azure equivalent": "Azure Migrate",
+          "Google Cloud equivalent": "Cloud Asset Inventory",
+          "Description": "Scan and catalog on-premises servers for migration planning"
+        },
+        {
+          "AWS Name": "AWS Application Migration Service",
+          "Better Name": "App Migration",
+          "Type": "SaaS",
+          "Azure equivalent": "Azure Migrate",
+          "Google Cloud equivalent": "Cloud Migration",
+          "Description": "Automate migration of applications to AWS"
+        },
+        {
+          "AWS Name": "AWS Database Migration Service",
+          "Better Name": "Database Migration",
+          "Type": "PaaS",
+          "Azure equivalent": "Database Migration Service",
+          "Google Cloud equivalent": "Database Migration Service",
+          "Description": "Migrate databases with minimal downtime"
+        },
+        {
+          "AWS Name": "AWS Migration Hub",
+          "Better Name": "Migration Dashboard",
+          "Type": "SaaS",
+          "Azure equivalent": "Azure Migrate",
+          "Google Cloud equivalent": "Migration Center",
+          "Description": "Central dashboard to track migration progress"
+        },
+        {
+          "AWS Name": "AWS Snow Family",
+          "Better Name": "Physical Data Transfer",
+          "Type": "IaaS",
+          "Azure equivalent": "Data Box",
+          "Google Cloud equivalent": "Transfer Appliance",
+          "Description": "Physical devices for moving large amounts of data"
+        },
+        {
+          "AWS Name": "AWS DataSync",
+          "Better Name": "Data Transfer Service",
+          "Type": "SaaS",
+          "Azure equivalent": "Azure File Sync",
+          "Google Cloud equivalent": "Storage Transfer Service",
+          "Description": "Automate data transfer between on-premises and AWS"
+        },
+        {
+          "AWS Name": "AWS Transfer Family",
+          "Better Name": "FTP Service",
+          "Type": "PaaS",
+          "Azure equivalent": "Azure Files",
+          "Google Cloud equivalent": "-",
+          "Description": "Managed SFTP, FTPS, and FTP service"
+        }
+      ]
+    },
+    {
+      "name": "Networking & Content Delivery",
+      "services": [
+        {
+          "AWS Name": "Amazon API Gateway",
+          "Better Name": "API Gateway",
+          "Type": "PaaS",
+          "Azure equivalent": "API Management",
+          "Google Cloud equivalent": "Cloud Endpoints/API Gateway",
+          "Description": "Create, publish, and manage APIs"
+        },
+        {
+          "AWS Name": "Amazon CloudFront",
+          "Better Name": "CDN",
+          "Type": "PaaS",
+          "Azure equivalent": "Content Delivery Network",
+          "Google Cloud equivalent": "Cloud CDN",
+          "Description": "Global content delivery network"
+        },
+        {
+          "AWS Name": "Amazon Route 53",
+          "Better Name": "DNS",
+          "Type": "PaaS",
+          "Azure equivalent": "DNS",
+          "Google Cloud equivalent": "Cloud DNS",
+          "Description": "Domain registration and DNS routing"
+        },
+        {
+          "AWS Name": "Amazon VPC",
+          "Better Name": "Virtual Network",
+          "Type": "IaaS",
+          "Azure equivalent": "Virtual Network",
+          "Google Cloud equivalent": "Virtual Private Cloud",
+          "Description": "Isolated cloud network. Think VLAN."
+        },
+        {
+          "AWS Name": "AWS App Mesh",
+          "Better Name": "Service Mesh",
+          "Type": "PaaS",
+          "Azure equivalent": "Service Fabric Mesh",
+          "Google Cloud equivalent": "Traffic Director",
+          "Description": "Application-level networking for microservices. Monitor, trace, log, and control traffic."
+        },
+        {
+          "AWS Name": "AWS Cloud Map",
+          "Better Name": "Service Discovery",
+          "Type": "PaaS",
+          "Azure equivalent": "Service Fabric",
+          "Google Cloud equivalent": "Service Directory",
+          "Description": "Service discovery for cloud resources"
+        },
+        {
+          "AWS Name": "AWS Direct Connect",
+          "Better Name": "Dedicated Connection",
+          "Type": "IaaS",
+          "Azure equivalent": "ExpressRoute",
+          "Google Cloud equivalent": "Cloud Interconnect",
+          "Description": "Dedicated physical network connection to AWS"
+        },
+        {
+          "AWS Name": "AWS Global Accelerator",
+          "Better Name": "Traffic Optimizer",
+          "Type": "PaaS",
+          "Azure equivalent": "Front Door",
+          "Google Cloud equivalent": "Premium Network Tier",
+          "Description": "Improve global application availability"
+        },
+        {
+          "AWS Name": "AWS PrivateLink",
+          "Better Name": "Private Endpoint",
+          "Type": "PaaS",
+          "Azure equivalent": "Private Link",
+          "Google Cloud equivalent": "Private Service Connect",
+          "Description": "Connect services across different AWS accounts and VPCs without exposing traffic to the public internet"
+        },
+        {
+          "AWS Name": "AWS Transit Gateway",
+          "Better Name": "Virtual WAN",
+          "Type": "PaaS",
+          "Azure equivalent": "Virtual WAN",
+          "Google Cloud equivalent": "Network Connectivity Center",
+          "Description": "Connect VPCs and on-premises networks through a central hub. Like a Virtual WAN."
+        },
+        {
+          "AWS Name": "AWS VPN",
+          "Better Name": "VPN Service",
+          "Type": "PaaS",
+          "Azure equivalent": "VPN Gateway",
+          "Google Cloud equivalent": "Cloud VPN",
+          "Description": "Secure network connectivity between on-premises and AWS"
+        },
+        {
+          "AWS Name": "Elastic Load Balancing",
+          "Better Name": "Load Balancer",
+          "Type": "PaaS",
+          "Azure equivalent": "Load Balancer",
+          "Google Cloud equivalent": "Cloud Load Balancing",
+          "Description": "Distribute incoming traffic"
+        }
+      ]
+    },
+    {
+      "name": "Security, Identity & Compliance",
+      "services": [
+        {
+          "AWS Name": "Amazon Cognito",
+          "Better Name": "User Authentication",
+          "Type": "PaaS",
+          "Azure equivalent": "Azure AD B2C",
+          "Google Cloud equivalent": "Firebase Auth",
+          "Description": "Managed user authentication. No need to build your own auth system."
+        },
+        {
+          "AWS Name": "Amazon Detective",
+          "Better Name": "Security Investigation",
+          "Type": "SaaS",
+          "Azure equivalent": "Sentinel",
+          "Google Cloud equivalent": "Security Command Center",
+          "Description": "INVESTIGATOR - investigates security incidents to find the root cause (e.g. compromised accounts)"
+        },
+        {
+          "AWS Name": "Amazon GuardDuty",
+          "Better Name": "Threat Watchdog",
+          "Type": "SaaS",
+          "Azure equivalent": "Security Center",
+          "Google Cloud equivalent": "Security Command Center",
+          "Description": "WATCHDOG - continuously monitors for malicious activity (e.g. unusual API calls)"
+        },
+        {
+          "AWS Name": "Amazon Inspector",
+          "Better Name": "Security Scanner",
+          "Type": "SaaS",
+          "Azure equivalent": "Defender for Cloud",
+          "Google Cloud equivalent": "Security Scanner",
+          "Description": "SCANNER - runs security assessments (e.g. scans for open ports)"
+        },
+        {
+          "AWS Name": "Amazon Macie",
+          "Better Name": "Data Security Scanner",
+          "Type": "SaaS",
+          "Azure equivalent": "Purview",
+          "Google Cloud equivalent": "Data Loss Prevention",
+          "Description": "Discover and protect sensitive data (e.g. personal information)"
+        },
+        {
+          "AWS Name": "AWS Artifact",
+          "Better Name": "Compliance Reports",
+          "Type": "SaaS",
+          "Azure equivalent": "Service Trust Portal",
+          "Google Cloud equivalent": "Compliance Reports Manager",
+          "Description": "Access AWS security and compliance documents (e.g. ISO certifications)"
+        },
+        {
+          "AWS Name": "AWS Audit Manager",
+          "Better Name": "Compliance Audit",
+          "Type": "SaaS",
+          "Azure equivalent": "Purview",
+          "Google Cloud equivalent": "Security Command Center",
+          "Description": "Continuous compliance auditing"
+        },
+        {
+          "AWS Name": "AWS Certificate Manager",
+          "Better Name": "SSL Certificate Manager",
+          "Type": "SaaS",
+          "Azure equivalent": "App Service Certificates",
+          "Google Cloud equivalent": "Certificate Authority Service",
+          "Description": "Provision and manage SSL/TLS certificates. Think Let's Encrypt."
+        },
+        {
+          "AWS Name": "AWS CloudHSM",
+          "Better Name": "Hardware Security Module",
+          "Type": "PaaS",
+          "Azure equivalent": "Dedicated HSM",
+          "Google Cloud equivalent": "Cloud HSM",
+          "Description": "Hardware-based key storage so you can manage your own encryption keys"
+        },
+        {
+          "AWS Name": "AWS Directory Service",
+          "Better Name": "Active Directory",
+          "Type": "PaaS",
+          "Azure equivalent": "Active Directory DS",
+          "Google Cloud equivalent": "Managed Service for Microsoft AD",
+          "Description": "Managed Microsoft Active Directory"
+        },
+        {
+          "AWS Name": "AWS Firewall Manager",
+          "Better Name": "Central Firewall Manager",
+          "Type": "SaaS",
+          "Azure equivalent": "Azure Firewall Manager",
+          "Google Cloud equivalent": "Cloud Armor",
+          "Description": "Centrally manage firewall rules"
+        },
+        {
+          "AWS Name": "AWS Identity and Access Management",
+          "Better Name": "IAM",
+          "Type": "SaaS",
+          "Azure equivalent": "Azure AD",
+          "Google Cloud equivalent": "Cloud IAM",
+          "Description": "Manage access to AWS services"
+        },
+        {
+          "AWS Name": "AWS Key Management Service",
+          "Better Name": "Encryption Key Manager",
+          "Type": "SaaS",
+          "Azure equivalent": "Key Vault",
+          "Google Cloud equivalent": "Cloud KMS",
+          "Description": "Manage encryption keys"
+        },
+        {
+          "AWS Name": "AWS Secrets Manager",
+          "Better Name": "Secrets Manager",
+          "Type": "SaaS",
+          "Azure equivalent": "Key Vault",
+          "Google Cloud equivalent": "Secret Manager",
+          "Description": "Store and rotate secrets"
+        },
+        {
+          "AWS Name": "AWS Security Hub",
+          "Better Name": "Security Dashboard",
+          "Type": "SaaS",
+          "Azure equivalent": "Security Center",
+          "Google Cloud equivalent": "Security Command Center",
+          "Description": "Central security dashboard"
+        },
+        {
+          "AWS Name": "AWS Shield",
+          "Better Name": "DDoS Protection",
+          "Type": "SaaS",
+          "Azure equivalent": "DDoS Protection",
+          "Google Cloud equivalent": "Cloud Armor",
+          "Description": "DDoS protection service"
+        },
+        {
+          "AWS Name": "AWS IAM Identity Center",
+          "Better Name": "Single Sign-On",
+          "Type": "SaaS",
+          "Azure equivalent": "Azure AD",
+          "Google Cloud equivalent": "Cloud Identity",
+          "Description": "Single sign-on service to access multiple accounts"
+        },
+        {
+          "AWS Name": "AWS WAF",
+          "Better Name": "Web Application Firewall",
+          "Type": "PaaS",
+          "Azure equivalent": "WAF",
+          "Google Cloud equivalent": "Cloud Armor",
+          "Description": "Filter malicious web (so it's application layer) traffic (e.g. SQL injection)"
+        }
+      ]
+    },
+    {
+      "name": "Storage",
+      "services": [
+        {
+          "AWS Name": "AWS Backup",
+          "Better Name": "Backup",
+          "Type": "PaaS",
+          "Azure equivalent": "Backup",
+          "Google Cloud equivalent": "Backup and DR Service",
+          "Description": "Centralized backup management"
+        },
+        {
+          "AWS Name": "Amazon Elastic Block Store",
+          "Better Name": "Block Storage",
+          "Type": "IaaS",
+          "Azure equivalent": "Managed Disks",
+          "Google Cloud equivalent": "Persistent Disk",
+          "Description": "Block-level storage volumes attached to EC2 instances"
+        },
+        {
+          "AWS Name": "AWS Elastic Disaster Recovery",
+          "Better Name": "Disaster Recovery",
+          "Type": "PaaS",
+          "Azure equivalent": "Site Recovery",
+          "Google Cloud equivalent": "Backup and DR Service",
+          "Description": "Disaster recovery service"
+        },
+        {
+          "AWS Name": "Amazon Elastic File System",
+          "Better Name": "Network File System",
+          "Type": "PaaS",
+          "Azure equivalent": "Files",
+          "Google Cloud equivalent": "Filestore",
+          "Description": "Scalable NFS file storage"
+        },
+        {
+          "AWS Name": "Amazon FSx for Lustre",
+          "Better Name": "HPC File System",
+          "Type": "PaaS",
+          "Azure equivalent": "HPC Storage",
+          "Google Cloud equivalent": "Filestore",
+          "Description": "High-performance file system"
+        },
+        {
+          "AWS Name": "Amazon FSx for Windows File Server",
+          "Better Name": "Windows File System",
+          "Type": "PaaS",
+          "Azure equivalent": "Files",
+          "Google Cloud equivalent": "Filestore",
+          "Description": "Managed Windows file storage"
+        },
+        {
+          "AWS Name": "Amazon Simple Storage Service",
+          "Better Name": "Object Storage",
+          "Type": "IaaS",
+          "Azure equivalent": "Blob Storage",
+          "Google Cloud equivalent": "Cloud Storage",
+          "Description": "Scalable object storage service. Think Dropbox."
+        },
+        {
+          "AWS Name": "AWS Storage Gateway",
+          "Better Name": "Hybrid Storage",
+          "Type": "PaaS",
+          "Azure equivalent": "StorSimple",
+          "Google Cloud equivalent": "Storage Transfer Service",
+          "Description": "Send data to AWS from on-premises storage for example as a backup"
+        }
+      ]
+    }
+  ]
+}

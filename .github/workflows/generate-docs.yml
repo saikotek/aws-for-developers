@@ -1,0 +1,45 @@
+name: Generate Documentation
+
+on:
+  push:
+    branches:
+      - main
+    paths: # Only run on changes to these files
+      - 'services.json'
+      - 'HEADER.md'
+      - 'json2markdown.js'
+
+jobs:
+  generate-docs:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Generate Markdown
+        run: |
+          node json2markdown.js services.json > SERVICES.md
+          cat HEADER.md SERVICES.md > README.md
+
+      - name: Commit and push if changed
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          
+          # Check if there are any changes
+          if git diff --quiet README.md SERVICES.md; then
+            echo "No changes to commit"
+            exit 0
+          fi
+          
+          git add README.md SERVICES.md
+          git commit -m "docs: update markdown docs [skip ci]"
+          git push
