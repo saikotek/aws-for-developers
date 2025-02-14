@@ -9,6 +9,9 @@ on:
       - 'HEADER.md'
       - 'json2markdown.js'
 
+permissions:
+    contents: write
+      
 jobs:
   generate-docs:
     runs-on: ubuntu-latest
