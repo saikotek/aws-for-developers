@@ -8,6 +8,8 @@ on:
       - 'services.json'
       - 'HEADER.md'
       - 'json2markdown.js'
+  workflow_dispatch:
+    
 
 permissions:
     contents: write
